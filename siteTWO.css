@@ -1,0 +1,303 @@
+/*whole site*/
+
+* {
+	margin: 0;
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+header {
+	height:240px;
+	padding-top: 80px;
+	padding-left: 120px;
+	padding-right: 120px;
+	background:url("shatteredg.png");
+}
+
+header h1 {
+	font-size: 100px;
+	color:#000;
+	font-family: Lobster, Helvetica, Sans-Serif;
+}
+
+header > h2 {
+	display:inline-block;
+	border-bottom: 4px solid #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#contact-info {
+	float:right;
+	text-align: right;
+	padding-top: 30px;
+}
+
+#contact-info h2 a {
+	text-decoration: none;
+	color:#000;
+	display:block;
+	padding-bottom: 5px;
+}
+
+#contact-info h2 a:hover {
+	color:#FFF;
+}
+
+#contact-icons img {
+	height:40px;
+	width: 40px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+
+nav ul a {
+	text-decoration: none;
+	color:#000;
+}
+
+nav li {
+	display: inline-block;
+	padding-top: 20px;
+	width: 150px;
+	height: 30px;
+	border-bottom: 3px solid #4ba;
+	margin-left: 10px;
+}
+
+nav li:hover {
+	background-color: rgba(0,0,0,.3);
+	font-weight: bold;
+}
+
+/*end of full site stuff
+start of homepage stuff*/
+
+#homepage section {
+	height: 400px;
+}
+
+#homepage section h2 {
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-top: 40px;
+	font-size: 70px;
+	color:#000;
+	font-family: Lobster, Helvetica, Sans-Serif;
+	text-align: center;
+}
+
+#homepage section p {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 40px;
+	padding-left: 240px;
+	padding-right: 240px;
+}
+
+#homepage #contact-button {
+	padding: 20px 30px;
+	margin-top: 60px;
+	display:block;
+	text-align: center;
+	text-decoration: none;
+	background-color:#4ba;
+	color:#FFF;
+	margin-right: 40%;
+	margin-left:40%;
+}
+
+#homepage #contact-button:hover {
+	background-color: #333
+}
+
+/*end of homepage stuff
+start of full site stuff*/
+
+footer {
+	background-color: #000;
+	height:180px;
+	color:#FFF;
+	position:relative;
+	clear: both;
+}
+
+footer a {
+	text-decoration: none;
+	color:#FFF;
+}
+
+#footer-links {
+	position:absolute;
+	top:0;
+	right:0;
+	margin-top: 90px;
+	padding-right: 20px;
+}
+
+#border-right {
+	border-right: 2px solid #FFF;
+	padding-right: 5px;
+}
+
+#footer-links a:hover {
+	color:#a9e8df;
+}
+
+#copyright {
+	margin-top:90px;
+	display:inline-block;
+	position: absolute;
+	top:0;
+	left:0;
+	padding-left: 20px;
+
+}
+
+#download-resume-button {
+	border:2px solid white;
+	font-size: 20px;
+	padding: 10px 20px;
+	display:inline-block;
+	margin-top: 75px;
+	margin-right: 40%;
+	margin-left:40%;
+
+}
+
+#download-resume-button:hover {
+	background-color: #333;
+}
+
+section {
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom: 60px;
+}
+
+/*end of full site stuff
+start of resume stuff*/
+
+
+#resume section h3,
+#resume section h2,
+#resume section p {
+	font-size: 20px;
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+#resume section h3 {
+	border-bottom: 1px solid #4ba;
+	padding-bottom: 5px;
+	margin-top: 60px;
+	font-size: 30px;
+}
+
+#resume section h2 {
+	margin-top: 20px;
+}
+
+/*start of portfolio stuff*/
+
+#portfolio p {
+	text-align: center;
+	font-size: 60px;
+	font-family: Lobster, Helvetica, Sans-Serif;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+/*start of testimonials stuff*/
+
+#testimonials p {
+	float:right;
+	width: 400px;
+	margin-top: 80px;
+}
+
+#testimonials h3 {
+	float:left;
+	font-size: 30px;
+	font-style: italic;
+	width: 400px;
+	margin-top: 110px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #4ba;
+	border-bottom: 1px solid #4ba;
+	text-align: center;
+}
+
+#testimonials #burning-building {
+	clear:both;
+}
+
+#testimonials #billion-dollars {
+	clear: both;
+}
+
+#testimonials #really-positive {
+	clear: both;
+	margin-bottom: 40px;
+}
+
+#testimonials #really-positive p {
+	padding-top: 20px;
+}
+#testimonials #clearfix {
+	clear:both;
+}
+
+/*start of contact page stuff*/
+
+#contact form {
+	margin-top: 60px;
+	text-align: center;
+}
+
+#contact textarea {
+	height:200px;
+	width:400px;
+	resize:none;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	font-size: 18px;
+	outline: none;
+	border:2px solid #777;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact label {
+	font-weight: bold;
+	font-size: 24px;
+}
+#contact input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	height: 35px;
+	width: 300px;
+	background-color:#777;
+	outline: none;
+	border:none;
+	color: #FFF;
+	font-size: 18px;
+}
+
+#contact #submit-button {
+	background-color: #4ba;
+	margin-bottom: 100px;
+}
+
+#contact #submit-button:hover {
+	background-color: #333
+}
